@@ -1,6 +1,5 @@
-def show_menu():
-    print("\n1. Add Task")
-    print("2. View Tasks")
-    print("3. Exit")
-
-show_menu()
+def add_task():
+    task = input("Enter task: ")
+    with open("tasks.txt", "a") as f:
+        f.write(task + " | pending\n")
+    print("Task added successfully")
