@@ -1,1 +1,1 @@
-FocusList is a minimal CLI tool to manage daily tasks.
+Supports future extensions like export and analytics.
